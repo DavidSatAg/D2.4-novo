@@ -1,0 +1,223 @@
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #293651;
+  text-align: left;
+  margin: px;
+}
+
+.apresentacao {
+  font-family: "Montserrat", sans-serif;
+  color: #519d85;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.3rem;
+}
+
+.descricao_apresentacao {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 0.2rem;
+  margin-bottom: 38px;
+}
+
+.introducao {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  color: #7f878f;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.botao_mais_informacoes {
+  color: white;
+  background: #00a78e;
+  padding: 14px 30px;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  border: 0;
+}
+
+.centralizado {
+  text-align: center;
+}
+
+img {
+  width: 75%;
+}
+
+.why_you_hire_me {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+.barrinha_de_progresso {
+  width: 85%;
+  background-color: #00a78e;
+  height: 1rem;
+}
+
+progress::-webkit-progress-value {
+  background-color: #00a78e;
+}
+
+.projetos {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+}
+.titulo_projetos {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 15px 0px 25px;
+  display: inline-block;
+  width: 80%;
+}
+
+.descricao {
+  font-weight: lighter;
+  color: #505f7f;
+  font-size: 25px;
+}
+
+.quebra_linha,
+.quebra_linha2,
+.quebra_linha3 {
+  background-color: #2db087;
+  line-height: 6px;
+  color: white;
+  display: inline-block;
+  border-radius: 3px;
+  margin-bottom: 0px;
+}
+
+.quebra_linha {
+  width: 110px;
+}
+
+.quebra_linha2 {
+  width: 15px;
+}
+
+.quebra_linha3 {
+  width: 10px;
+}
+
+.bloco_projetos {
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.blocos {
+  width: 75%;
+  height: 350px;
+  filter: drop-shadow(0 0 0.75rem rgb(227, 227, 227));
+  border-radius: 12px;
+  display: inline-block;
+  margin: 25px;
+  background-color: #f8f8f8;
+  text-align: left;
+  padding: 35px;
+}
+
+.titulo_competencias {
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.icone > img {
+  width: 20%;
+}
+
+.background {
+  height: 600px;
+  background-image: url(../images/mapamundo.png);
+  background-size: 200%;
+  background-position: center;
+  opacity: 0.2;
+}
+
+.contatos {
+  background-color: #00a78e;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  height: 300px;
+  color: white;
+  position: relative;
+  opacity: 0.8;
+  float: inline-start;
+  padding-left: 12%;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 40px;
+  margin-top: 0px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.branco2 {
+  color: white;
+  text-align: left;
+  position: relative;
+  font-size: 20px;
+}
+
+.branco {
+  color: #00a78e;
+  background-color: white;
+  position: relative;
+}
+
+.icones {
+  padding-top: 50px;
+  width: 100px;
+  display: inline-block;
+}
+
+.email {
+  font-size: 30px;
+  text-align: center;
+}
+
+.rodapé {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+spam {
+  color: #00a78e;
+}
+
+.opções {
+  font-size: 20px;
+  text-align: center;
+}
+
+.frase {
+  font-size: 20px;
+  text-align: center;
+}
