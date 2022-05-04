@@ -162,7 +162,12 @@ progress::-webkit-progress-value {
 
 .regiao_contatos {
   padding-top: 60px;
+  background-image: url(../images/mapamundo.png);
+  background-position: center;
+  background-size: 100%;
+  height: 450px;
 }
+
 .contatos {
   background-color: #00a78e;
   margin-left: auto;
@@ -171,11 +176,11 @@ progress::-webkit-progress-value {
   height: 300px;
   color: white;
   position: relative;
-  opacity: 0.8;
+  opacity: 0.95;
   padding-left: 12%;
   max-width: 850px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 h6 {
@@ -223,6 +228,7 @@ h6 {
 .rodapé {
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 spam {
