@@ -2,6 +2,7 @@
   width: 90%;
   margin: auto;
   padding: 10px;
+  max-width: 840px;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
   font-weight: 400;
   color: #293651;
   text-align: left;
-  margin: px;
 }
 
 .apresentacao {
@@ -51,8 +51,9 @@ body {
   text-align: center;
 }
 
-img {
+.centralizado > .img {
   width: 75%;
+  max-width: 400px;
 }
 
 .why_you_hire_me {
@@ -123,23 +124,26 @@ progress::-webkit-progress-value {
 .bloco_projetos {
   width: 100%;
   background-color: #f8f8f8;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
 }
+
 .blocos {
   width: 75%;
   height: 350px;
   filter: drop-shadow(0 0 0.75rem rgb(227, 227, 227));
   border-radius: 12px;
-  display: inline-block;
   margin: 25px;
   background-color: #f8f8f8;
   text-align: left;
   padding: 35px;
+  max-width: 400px;
+  display: inline-block;
 }
 
 .titulo_competencias {
-  font-size: 35px;
+  font-size: 33px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -156,6 +160,9 @@ progress::-webkit-progress-value {
   opacity: 0.2;
 }
 
+.regiao_contatos {
+  padding-top: 60px;
+}
 .contatos {
   background-color: #00a78e;
   margin-left: auto;
@@ -165,8 +172,10 @@ progress::-webkit-progress-value {
   color: white;
   position: relative;
   opacity: 0.8;
-  float: inline-start;
   padding-left: 12%;
+  max-width: 850px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 h6 {
@@ -189,15 +198,23 @@ h6 {
 .branco {
   color: #00a78e;
   background-color: white;
-  position: relative;
+  text-align: left;
 }
 
+@media (min-width: 960px) {
+  .branco2 {
+    font-size: 25px;
+  }
+}
+
+.quebra_linha_conjunto {
+  text-align: left;
+}
 .icones {
   padding-top: 50px;
   width: 100px;
   display: inline-block;
 }
-
 .email {
   font-size: 30px;
   text-align: center;
@@ -212,9 +229,22 @@ spam {
   color: #00a78e;
 }
 
-.opções {
+.opcoes {
   font-size: 20px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 960px) {
+  .opcoes {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .email {
+    font-size: 40px;
+  }
 }
 
 .frase {
